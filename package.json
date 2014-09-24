@@ -1,0 +1,29 @@
+{
+  "name": "karma-clear-screen-reporter",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Clears screen before each test run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arthurc/karma-clear-scren-reporter.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "clear-screen"
+  ],
+  "author": "Arthur Carlsson <arthur@kiron.net>",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "contributors": [
+  ]
+}
