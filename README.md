@@ -9,7 +9,7 @@ The easiest way is to keep `karma-clear-screen-reporter` as a devDependency in y
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-clear-screen-reporter": ">=0.0.1"
+    "karma-clear-screen-reporter": ">=1.0.0"
   }
 }
 ```
