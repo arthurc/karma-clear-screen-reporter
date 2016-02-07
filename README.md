@@ -20,11 +20,14 @@ npm install karma-clear-screen-reporter --save-dev
 ```
 
 ## Configuration
+Play it safe to load this plugin both in your reporters and plugins.
 ```js
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    reporters: ['progress', 'clear-screen']
+    reporters: ['progress', 'clear-screen'],
+    
+    plugins: ['karma-clear-screen-reporter']
   });
 };
 ```
