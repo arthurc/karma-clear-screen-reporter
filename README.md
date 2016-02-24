@@ -20,7 +20,7 @@ npm install karma-clear-screen-reporter --save-dev
 ```
 
 ## Configuration
-Play it safe to load this plugin both in your reporters and plugins.
+Play it safe to load this plugin both in your reporters and plugins, if you are already having a plugins section. Karama loads automatically all available plugins from your node modules as long as you have not declared them explicitly. For more details please read the [Loading Plugins](http://karma-runner.github.io/0.13/config/plugins.html) by Karma.
 ```js
 // karma.conf.js
 module.exports = function(config) {
