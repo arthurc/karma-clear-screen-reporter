@@ -4,7 +4,9 @@
   "description": "A Karma plugin. Clears screen before each test run.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ntsc",
+    "deploy": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -15,15 +17,21 @@
     "karma-reporter",
     "clear-screen"
   ],
-  "author": "Arthur Carlsson <arthur@kiron.net> And Wictor Chaves <wictor@hotmail.com.br>",
+  "author": "Wictor Chaves <wictor@hotmail.com.br>",
   "dependencies": {
+    "ntypescript": "1.201706190042.1"
   },
   "peerDependencies": {
     "karma": ">=0.9"
   },
   "license": "MIT",
-  "devDependencies": {
+  "devDependencies": {},
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/wictorChaves/karma-clear-screen/issues"
   },
-  "contributors": [
-  ]
+  "homepage": "https://github.com/wictorChaves/karma-clear-screen#readme",
+  "publishConfig":{
+	"registry": "https://npm.pkg.github.com/wictorChaves"
+  }
 }
