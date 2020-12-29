@@ -1,5 +1,5 @@
 {
-  "name": "karma-clear-screen-reporter",
+  "name": "karma-clear-screen",
   "version": "1.0.1",
   "description": "A Karma plugin. Clears screen before each test run.",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/arthurc/karma-clear-screen-reporter.git"
+    "url": "git://github.com/wictorChaves/karma-clear-screen.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-reporter",
     "clear-screen"
   ],
-  "author": "Arthur Carlsson <arthur@kiron.net>",
+  "author": "Arthur Carlsson <arthur@kiron.net> And Wictor Chaves <wictor@hotmail.com.br>",
   "dependencies": {
   },
   "peerDependencies": {
