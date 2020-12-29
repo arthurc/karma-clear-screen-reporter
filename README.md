@@ -18,7 +18,7 @@ The easiest way is to keep `karma-clear-screen` as a devDependency in your `pack
 You can simple do it by:
 
 ```bash
-npm install karma-clear-screen --save-dev
+npm install git+https://github.com/wictorChaves/karma-clear-screen.git --save-dev
 ```
 
 ## Configuration
