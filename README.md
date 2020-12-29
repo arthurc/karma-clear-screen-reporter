@@ -1,16 +1,16 @@
-# karma-clear-screen-reporter
+# Karma Clear Screen
 
 Reporter that clears the screen before each test run.
 
 ## Installation
 
-The easiest way is to keep `karma-clear-screen-reporter` as a devDependency in your `package.json`.
+The easiest way is to keep `karma-clear-screen` as a devDependency in your `package.json`.
 
 ```json
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-clear-screen-reporter": ">=1.0.1"
+    "karma-clear-screen": ">=1.0.1"
   }
 }
 ```
@@ -18,7 +18,7 @@ The easiest way is to keep `karma-clear-screen-reporter` as a devDependency in y
 You can simple do it by:
 
 ```bash
-npm install karma-clear-screen-reporter --save-dev
+npm install karma-clear-screen --save-dev
 ```
 
 ## Configuration
@@ -29,7 +29,7 @@ Play it safe to load this plugin both in your reporters and plugins, if you are 
 module.exports = function(config) {
   config.set({
     reporters: ['progress', 'clear-screen'],
-    plugins: ['karma-clear-screen-reporter']
+    plugins: ['karma-clear-screen']
   });
 };
 ```
