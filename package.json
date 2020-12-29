@@ -1,6 +1,6 @@
 {
   "name": "karma-clear-screen-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Karma plugin. Clears screen before each test run.",
   "main": "index.js",
   "scripts": {
