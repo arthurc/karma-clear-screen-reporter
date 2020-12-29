@@ -29,7 +29,6 @@ Play it safe to load this plugin both in your reporters and plugins, if you are 
 module.exports = function(config) {
   config.set({
     reporters: ['progress', 'clear-screen'],
-    
     plugins: ['karma-clear-screen-reporter']
   });
 };
