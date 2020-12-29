@@ -1,5 +1,5 @@
 {
-  "name": "karma-clear-screen",
+  "name": "@wictorChaves/karma-clear-screen",
   "version": "1.0.1",
   "description": "A Karma plugin. Clears screen before each test run.",
   "main": "index.js",
@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/wictorChaves/karma-clear-screen#readme",
   "publishConfig":{
-	"registry": "https://npm.pkg.github.com/wictorChaves"
+	"registry": "https://npm.pkg.github.com/"
   }
 }
