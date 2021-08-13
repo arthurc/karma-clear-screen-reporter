@@ -1,9 +1,9 @@
+const OnRunStart = require('./on-run-start.js');
+
 function ClearScreenReporter() {
-  this.onRunStart = function() {
-    console.log("\u001b[2J\u001b[0;0H");
-  };
+    this.onRunStart = OnRunStart;
 }
 
 module.exports = {
-  'reporter:clear-screen': ['type', ClearScreenReporter]
+    'reporter:clear-screen': ['type', ClearScreenReporter]
 };
